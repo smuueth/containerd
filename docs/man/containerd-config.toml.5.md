@@ -182,7 +182,7 @@ imports = ["/etc/containerd/runtime_*.toml", "./debug.toml"]
   path = ""
 
 [plugins]
-  [[plugins."io.containerd.monitor.v1.cgroups"]
+  [plugins."io.containerd.monitor.v1.cgroups"]
     no_prometheus = false
   [plugins."io.containerd.service.v1.diff-service"]
     default = ["walking"]
